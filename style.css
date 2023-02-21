@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: conic-gradient(
+    from 45deg,
+    rgb(196, 78, 78),
+    rgb(180, 136, 55) 50%,
+    rgb(175, 175, 54) 85%,
+    rgb(52, 163, 52)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  color: rgb(87, 37, 37);
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.converter-row {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, transparent, mistyrose),
+    url("critters.png");
+  border-radius: 20px;
+  padding: 50px 20px;
+}
+
+.col {
+  flex-basis: 32%;
+  text-align: center;
+}
+
+.col label {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.col input {
+  width: 150px;
+  height: 30px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  text-align: center;
+}
